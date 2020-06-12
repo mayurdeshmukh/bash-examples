@@ -1,0 +1,2 @@
+Replace whole line using sed
+sed '/azurecr.io/c\ \ \ \ \ \ \end2end.azurecr.io/tomcat:6' acr.yml
