@@ -1,6 +1,8 @@
 Replace whole line using sed
 sed '/azurecr.io/c\ \ \ \ \ \ \end2end.azurecr.io/tomcat:6' acr.yml
 
-
+handle doller in sed and echo
 echo a="{$"tag} > version.sh
+
+echo "sed -i '/end2end.azurecr.io/c\ \ \ \ \ \ \image:\ \end2end.azurecr.io/tomcat:"$"a' /home/cloud_user/ansible/az_devops/dev/playbooks/k8s/acr.ym
 
